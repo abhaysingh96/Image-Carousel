@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Slider || Future Web </title>
+    <link rel="stylesheet" type="text/css" href="carousel.css">
+</head>
+
+<body>
+    <div class="slide-container" >
+        <div class="slide slow" id="photo1">
+            
+            <div class="captions">
+                <h2>Exploring the paths</h2>
+            </div>
+            <img
+            src=https://images.unsplash.com/photo-1477858420916-3ab1b4979e89?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80>
+        </div>
+        <div class="slide slow" id="photo2">
+            <div class="captions">
+                <h2>The cars that we drive tells a lot about us</h2>
+            </div>
+            <img
+                src=https://images.unsplash.com/photo-1573451444472-7b0b275ab824?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1780&q=80>
+                
+        </div>
+        <div class="slide slow" id="photo3"> 
+            <div class="captions">
+                <h2>But that's life. One long tunnel</h2>
+            </div>
+            <img src=https://images.unsplash.com/photo-1590077427278-a308d0cd1c6f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80>
+        </div>
+        <div class="slide slow" id="photo4"> 
+            <div class="captions">
+                <h2>Life is too short for traffic</h2>
+            </div>
+            <img
+                src=https://images.unsplash.com/photo-1632706342791-b28557b3c45d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80>
+        </div>
+        <div class="slide slow" id="photo5">
+            <div class="captions" >
+                <h2 id="photo5h">April prepares her green traffic light and the  world thinks Go.</h2>
+            </div>
+            <img
+                src=https://images.unsplash.com/photo-1530860824446-528a231010a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80>
+        </div>
+         <a class="previous" onclick="plusSlide(-1)"><span class="arrow">&#10094</span></a> <a class="next"
+            onclick="plusSlide(1)"><span class="arrow">&#10095</span></a>
+        <div class="dots"> <span class="dot" onclick="currentSlide(1)"></span> <span class="dot"
+                onclick="currentSlide(2)"></span> <span class="dot" onclick="currentSlide(3)"></span> <span class="dot"
+                onclick="currentSlide(4)"></span> <span class="dot" onclick="currentSlide(5)"></span> </div>
+    </div>
+    <script src="carousel.js"></script>
+</body>
+
+</html>
